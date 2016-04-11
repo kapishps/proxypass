@@ -1,6 +1,6 @@
 ##*For educational purposes only.*
 
-The important thing is to understand that bruteforce and Dictionary attack programs are very easy to make therefore it is always advised to keep a long strong passwords.
+The important thing is to understand that bruteforce and Dictionary attack programs are very easy to make therefore it is always advised to keep long strong passwords.
 
 For eg:-
 For an alphanumeric password of length 8 characters even with 10000 pings/sec it would take 9 years to search all possible values
