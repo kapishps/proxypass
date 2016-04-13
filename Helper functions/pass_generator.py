@@ -1,0 +1,11 @@
+__author__ = 'kapish'
+import itertools
+def bruteforce(charset, maxlength):
+    return (''.join(candidate)
+        for candidate in itertools.chain.from_iterable(itertools.product(charset, repeat=i)
+        for i in range(1, maxlength + 1)))
+
+a=list(bruteforce('0123456789', 5))
+f = open('../Temp/5dnum.txt', 'w')
+for item in a:
+  f.write("%s\n" % item)
